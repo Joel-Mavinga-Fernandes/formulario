@@ -14,7 +14,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class FormularioApplication {
 
 	@GetMapping
-	public ModelAndView swaggerUi() {
+	public ModelAndView swaggerUI() {
 		return new ModelAndView("redirect:/swagger-ui/");
 		}
 
